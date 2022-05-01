@@ -5,7 +5,7 @@ from scapy.utils import rdpcap
 from scapy.all import sniff
 from scapy.all import Raw
 
-print('''\033[1;31mPcap plaintext reader for picoCTF flags\u001b[0m\n''')
+print('''\033[1;31mPcap plaintext reader for CTF flags\u001b[0m\n''')
 
 capture_file = rdpcap(sys.argv[1])
 
